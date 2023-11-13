@@ -1,6 +1,58 @@
-# Getting Started with Create React App
+# Social Media Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### A simple React application that renders a static clone of a social media site mock-up. 
+
+#### By Joey Palchak
+
+## Technologies Used
+
+- JavaScript
+- React
+- CSS
+- HTML
+
+## Description
+
+Social Media Clone is a simple React application intended only for practice & learning purposes. The project is a solution to a prompt in which the application must clone a given social media site mock-up, and practice breaking each element of the site into their own components.
+
+The final result of the Social Media Clone can be found below:
+
+<img src="https://github.com/jfpalchak/social-media-clone/blob/main/src/img/clone-result.png" alt="The application." />
+
+Some liberties were taken with particular elements of the design, such as profile pictures.
+
+For the planning stages of building the clone, a diagram was drawn up into the following components:
+
+<img src="https://github.com/jfpalchak/social-media-clone/blob/main/src/img/clone-diagram.png" alt="Application's component diagram." />
+
+The original mock-up that was to be copied is shown below:
+
+<img src="https://github.com/jfpalchak/social-media-clone/blob/main/src/img/mockup.png" alt="The original mock-up to be copied." />
+
+
+## Setup & Installation
+
+1. Copy the **[URL](https://github.com/jfpalchak/social-media-clone.git)** provided for this repository.
+2. Open Terminal.
+3. Change your working directory to where you'd like to create the cloned directory.
+4. In your terminal, type `git clone` and use the copied URL from Step 1. Or, copy the following git command:
+   
+```bash
+$ git clone https://github.com/jfpalchak/social-media-clone.git
+```
+
+5. Navigate to the root of the newly cloned directory.
+6. In your terminal, assuming Node and npm are installed, type the following command to install the project's dependencies found in `package.json`:
+   
+```bash
+$ npm install
+```
+
+7. With the dependencies installed, type the following line in your terminal to run the application in development mode:
+   
+```bash
+$ npm run start
+```
 
 ## Available Scripts
 
@@ -8,63 +60,43 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Known Bugs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The application does not implement responsive design.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+MIT License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Copyright (c) 2023 Joey Palchak
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
