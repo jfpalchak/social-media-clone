@@ -1,10 +1,11 @@
 import React from "react";
+import profilePic from "./../img/avatar1.svg";
 
 function UserHeader() {
   return (
     <h4>
-      <img />
-      User Name
+      <img src={profilePic} alt="User profile picture"/>
+      <span className="user-name">User Name</span>
     </h4>
   );
 }

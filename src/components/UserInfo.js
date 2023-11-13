@@ -4,10 +4,12 @@ import UserLinks from "./UserLinks";
 
 function UserInfo() {
   return (
-    <React.Fragment>
+    <div className="user-info">
+      <div className="user-card">
       <UserHeader />
       <UserLinks />
-    </React.Fragment>
+      </div>
+    </div>
   );
 }
 

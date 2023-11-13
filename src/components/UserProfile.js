@@ -4,7 +4,7 @@ import UserBio from "./UserBio";
 
 function UserProfile() {
   return (
-    <section className="userProfile">
+    <section className="user-profile">
       <UserInfo />
       <UserBio />
     </section>
