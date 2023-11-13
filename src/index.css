@@ -39,6 +39,7 @@ header {
   margin-bottom: 20px;
 }
 
+
 .nav-links a{
   border: 1px solid lightgray;
   padding: 10px;
@@ -147,7 +148,7 @@ main {
   border: 2px solid skyblue;
 }
 .post-form input::placeholder {
-  color: lightskyblue;
+  color: rgb(97, 161, 201);
   font-weight: bold;
 }
 
@@ -196,7 +197,9 @@ main {
   margin: auto 15px auto 10px;
 }
 .suggestion-item h5 {
-  margin: 3px auto;
+  margin-top: 0px;
+  margin-bottom: 8px;
+
 }
 .suggestion-item button {
   width: 55%;
